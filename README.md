@@ -30,4 +30,4 @@ When the JSON in `data/extracted/` changes, `make` regenerates `src/rules_data.c
 python3 islanders/c/tools/islands_to_bin.py <export.json or folder> --out islanders/data/islands_bin
 ```
 
-**Note:** the data in `islanders/data/extracted/` and everything derived from it comes from a personal copy of the game. It's for personal research only, so don't redistribute it, and keep this repo private.
+**Note:** the data in `islanders/data/extracted/` and everything derived from it was extracted from a personal copy of the game for research. ISLANDERS is by Grizzly Games; this project isn't affiliated with them.
