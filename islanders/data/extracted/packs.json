@@ -1,0 +1,630 @@
+[
+ {
+  "pid": 17351,
+  "name": "",
+  "lookup": "bb_brewery_summer_header",
+  "buildings": [
+   "Brewery",
+   "Hop field"
+  ],
+  "requirements": [
+   "Lumberjack",
+   "Mill"
+  ],
+  "jokers": 1,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 1
+ },
+ {
+  "pid": 17353,
+  "name": "",
+  "lookup": "bb_brick_header",
+  "buildings": [
+   "Brickyard",
+   "Sandpit"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 1,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17355,
+  "name": "",
+  "lookup": "bb_city_header",
+  "buildings": [
+   "City Center",
+   "House",
+   "Mansion"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 3,
+  "alwaysShow": 1,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17356,
+  "name": "",
+  "lookup": "bb_lumber_header",
+  "buildings": [
+   "Lumberjack",
+   "Sawmill"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 1,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17357,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Mason"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 1,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 1,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17358,
+  "name": "",
+  "lookup": "bb_wheat_header",
+  "buildings": [
+   "Mill",
+   "Field"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 1,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 1
+ },
+ {
+  "pid": 17360,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Shaman"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 3,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17362,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Fisher"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17363,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Fountain"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 6,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17364,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Hut"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17365,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Park"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 6,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17366,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Plateau"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 7,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17367,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Tower"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17368,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Warehouse"
+  ],
+  "requirements": [
+   "Mill",
+   "Sawmill",
+   "Brewery",
+   "Fisher",
+   "City Center",
+   "House",
+   "Mansion"
+  ],
+  "jokers": 2,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17370,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Circus"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 10,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17371,
+  "name": "",
+  "lookup": "bb_luxury_header",
+  "buildings": [
+   "Gold Mine",
+   "Jewlery"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 12,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 1,
+  "availableIn": 2
+ },
+ {
+  "pid": 17372,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Market"
+  ],
+  "requirements": [
+   "Warehouse",
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17374,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Resort Oasis"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 12,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17375,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Tavern"
+  ],
+  "requirements": [
+   "Brewery",
+   "House"
+  ],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17376,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Temple"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 12,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17377,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Wall"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 12,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17352,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Brewery"
+  ],
+  "requirements": [
+   "Lumberjack",
+   "Mill"
+  ],
+  "jokers": 1,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 0
+ },
+ {
+  "pid": 17354,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Brickyard"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 1,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 0
+ },
+ {
+  "pid": 17359,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Mill"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 1,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 0
+ },
+ {
+  "pid": 17361,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Seaweed Field",
+   "Seaweed Farmer"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17369,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Balloon"
+  ],
+  "requirements": [
+   "Circus",
+   "Tower",
+   "Resort Oasis"
+  ],
+  "jokers": 1,
+  "minUnlocks": 0,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17373,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Monument"
+  ],
+  "requirements": [
+   "Temple"
+  ],
+  "jokers": 0,
+  "minUnlocks": 12,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17348,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Statue"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 100000,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17349,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Wall Plateau"
+  ],
+  "requirements": [
+   "City Center"
+  ],
+  "jokers": 0,
+  "minUnlocks": 9,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ },
+ {
+  "pid": 17350,
+  "name": "",
+  "lookup": "",
+  "buildings": [
+   "Water Plateau"
+  ],
+  "requirements": [],
+  "jokers": 0,
+  "minUnlocks": 5,
+  "alwaysShow": 0,
+  "grass": 0,
+  "sand": 0,
+  "noSand": 0,
+  "rock": 0,
+  "wood": 0,
+  "gold": 0,
+  "availableIn": 2
+ }
+]

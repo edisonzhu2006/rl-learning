@@ -1,0 +1,2765 @@
+[
+ {
+  "name": "Brewery",
+  "id": 0,
+  "base": 3,
+  "iScore": null,
+  "range": 2.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 4,
+  "amount": 2,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Hop field",
+   2.0
+  ],
+  "interactions": [
+   [
+    "Hop field",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Warehouse",
+    2
+   ],
+   [
+    "Seaweed Farmer",
+    2
+   ],
+   [
+    "Brewery",
+    -11
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Market",
+  "id": 0,
+  "base": -20,
+  "iScore": null,
+  "range": 3.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 3,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Warehouse",
+    20
+   ],
+   [
+    "City Center",
+    5
+   ],
+   [
+    "Mason",
+    4
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Fisher",
+    3
+   ],
+   [
+    "House",
+    2
+   ],
+   [
+    "Mansion",
+    2
+   ],
+   [
+    "Market",
+    -35
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Gold Mine",
+  "id": 0,
+  "base": -20,
+  "iScore": null,
+  "range": 0.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 1,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Gold Resource Field 01 a",
+    35
+   ],
+   [
+    "Warehouse",
+    10
+   ],
+   [
+    "Jewlery",
+    10
+   ],
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Resort Oasis",
+    -10
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Jewlery",
+  "id": 0,
+  "base": -35,
+  "iScore": null,
+  "range": 1.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 2,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Gold Mine",
+    30
+   ],
+   [
+    "Statue",
+    6
+   ],
+   [
+    "Mansion",
+    5
+   ],
+   [
+    "Wall",
+    -3
+   ],
+   [
+    "House",
+    -4
+   ],
+   [
+    "Jewlery",
+    -30
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Temple",
+  "id": 0,
+  "base": -75,
+  "iScore": null,
+  "range": 1.100000023841858,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": 0.25,
+    "z": 0.0
+   }
+  ],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 1,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    40
+   ],
+   [
+    "Plateau",
+    25
+   ],
+   [
+    "Mason",
+    25
+   ],
+   [
+    "Shaman",
+    15
+   ],
+   [
+    "City Center",
+    10
+   ],
+   [
+    "Tower",
+    10
+   ],
+   [
+    "Mansion",
+    10
+   ],
+   [
+    "Wall",
+    10
+   ],
+   [
+    "House",
+    8
+   ],
+   [
+    "Park",
+    5
+   ],
+   [
+    "Market",
+    -20
+   ],
+   [
+    "Sawmill",
+    -20
+   ],
+   [
+    "Brickyard",
+    -20
+   ],
+   [
+    "Mill",
+    -20
+   ],
+   [
+    "Gold Mine",
+    -20
+   ],
+   [
+    "Tavern",
+    -20
+   ],
+   [
+    "Circus",
+    -20
+   ],
+   [
+    "Warehouse",
+    -20
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "City Center",
+  "id": 0,
+  "base": 15,
+  "iScore": null,
+  "range": 2.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 5,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Fisher",
+    7
+   ],
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Mason",
+    4
+   ],
+   [
+    "Mill",
+    2
+   ],
+   [
+    "Seaweed Farmer",
+    2
+   ],
+   [
+    "Shaman",
+    -5
+   ],
+   [
+    "Resort Oasis",
+    -15
+   ],
+   [
+    "City Center",
+    -40
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Warehouse",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 2.200000047683716,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 3,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Market",
+    7
+   ],
+   [
+    "Gold Mine",
+    7
+   ],
+   [
+    "Mill",
+    7
+   ],
+   [
+    "Fisher",
+    6
+   ],
+   [
+    "Brickyard",
+    6
+   ],
+   [
+    "Mason",
+    5
+   ],
+   [
+    "Brewery",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Sawmill",
+    4
+   ],
+   [
+    "Seaweed Farmer",
+    4
+   ],
+   [
+    "Resort Oasis",
+    -5
+   ],
+   [
+    "Warehouse",
+    -15
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Field",
+  "id": 0,
+  "base": 3,
+  "iScore": null,
+  "range": 0.550000011920929,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 24,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Mill",
+   0.15000000596046448
+  ],
+  "interactions": [
+   [
+    "Mill",
+    5
+   ],
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Plateau",
+    3
+   ],
+   [
+    "Resort Oasis",
+    3
+   ],
+   [
+    "Field",
+    2
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Water Plateau",
+  "id": 0,
+  "base": 13,
+  "iScore": null,
+  "range": 1.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 10,
+  "amountWater": -6,
+  "perUnlock": 0.0,
+  "perUnlockWater": 1.100000023841858,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Water"
+  ],
+  "groundedBreakers": [],
+  "forbiddenOverlap": [
+   "Structure"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Sawmill",
+    3
+   ],
+   [
+    "Tree Oak Mighty 01 a",
+    3
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "Water Plateau",
+    1
+   ],
+   [
+    "Tree Cypress 02 a",
+    1
+   ],
+   [
+    "Tree Oak 01 a",
+    1
+   ],
+   [
+    "Tree Oak 01 b",
+    1
+   ],
+   [
+    "Tree Oak 01 c",
+    1
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Seaweed Farmer",
+  "id": 0,
+  "base": 10,
+  "iScore": null,
+  "range": 1.7000000476837158,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": -0.5,
+    "z": 1.0
+   }
+  ],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 5,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 1,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [],
+  "forbiddenOverlap": [
+   "Structure",
+   "Wood Platform"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Seaweed Field",
+   2.0
+  ],
+  "interactions": [
+   [
+    "Seaweed Field",
+    4
+   ],
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Seaweed Farmer",
+    -24
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Tavern",
+  "id": 0,
+  "base": -15,
+  "iScore": null,
+  "range": 2.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 2,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Brewery",
+    18
+   ],
+   [
+    "City Center",
+    8
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "House",
+    2
+   ],
+   [
+    "Tavern",
+    -15
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Sawmill",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 1.600000023841858,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 4,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Lumberjack",
+   1.0
+  ],
+  "interactions": [
+   [
+    "Lumberjack",
+    7
+   ],
+   [
+    "Warehouse",
+    6
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Sawmill",
+    -12
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Shaman",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 1.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 5,
+  "amount": 6,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Temple",
+    5
+   ],
+   [
+    "Flower Single 01 A",
+    3
+   ],
+   [
+    "Seaweed Field",
+    2
+   ],
+   [
+    "Mason",
+    -6
+   ],
+   [
+    "City Center",
+    -10
+   ],
+   [
+    "Shaman",
+    -13
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Statue",
+  "id": 0,
+  "base": 15,
+  "iScore": null,
+  "range": 3.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 3,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 0,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    -25
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Mansion",
+  "id": 0,
+  "base": 1,
+  "iScore": null,
+  "range": 0.5249999761581421,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 40,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    8
+   ],
+   [
+    "Shaman",
+    6
+   ],
+   [
+    "Plateau",
+    6
+   ],
+   [
+    "Wall Plateau",
+    6
+   ],
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Fountain",
+    3
+   ],
+   [
+    "Park",
+    2
+   ],
+   [
+    "Market",
+    2
+   ],
+   [
+    "Tower",
+    2
+   ],
+   [
+    "Temple",
+    2
+   ],
+   [
+    "Jewlery",
+    2
+   ],
+   [
+    "Mansion",
+    1
+   ],
+   [
+    "Circus",
+    -3
+   ],
+   [
+    "Wall",
+    -3
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Tower",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 2.75,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": -1.5,
+    "z": 0.0
+   }
+  ],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 4,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Temple",
+    8
+   ],
+   [
+    "Mason",
+    5
+   ],
+   [
+    "Balloon",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Wall",
+    1
+   ],
+   [
+    "House",
+    1
+   ],
+   [
+    "Park",
+    1
+   ],
+   [
+    "Mansion",
+    1
+   ],
+   [
+    "Tower",
+    -30
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Lumberjack",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 1.600000023841858,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 7,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Sawmill",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Tree Oak Mighty 01 a",
+    3
+   ],
+   [
+    "Tree Cypress 02 a",
+    1
+   ],
+   [
+    "Tree Oak 01 a",
+    1
+   ],
+   [
+    "Tree Oak 01 b",
+    1
+   ],
+   [
+    "Tree Oak 01 c",
+    1
+   ],
+   [
+    "Lumberjack",
+    -6
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Plateau",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 2.0999999046325684,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 5,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Water",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [],
+  "forbiddenOverlap": [
+   "Structure",
+   "Wood Platform"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    10
+   ],
+   [
+    "Mason",
+    8
+   ],
+   [
+    "Plateau",
+    4
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "Seaweed Field",
+    1
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Wall Plateau",
+  "id": 0,
+  "base": 10,
+  "iScore": null,
+  "range": 2.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 10,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 1,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Water",
+   "Structure"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    4
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "Wall Plateau",
+    1
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Fisher",
+  "id": 0,
+  "base": 4,
+  "iScore": null,
+  "range": 3.75,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 7,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Water"
+  ],
+  "groundedBreakers": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "deleteOnPlace": [
+   "Tree"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    7
+   ],
+   [
+    "Warehouse",
+    2
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "Hut",
+    1
+   ],
+   [
+    "Seaweed Field",
+    1
+   ],
+   [
+    "Seaweed Farmer",
+    -4
+   ],
+   [
+    "Fisher",
+    -11
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Sandpit",
+  "id": 0,
+  "base": 9,
+  "iScore": null,
+  "range": 3.200000047683716,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 9,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Sand"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Brickyard",
+   0.25
+  ],
+  "interactions": [
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Brickyard",
+    3
+   ],
+   [
+    "Sandpit",
+    -3
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Resort Oasis",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 2.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 1,
+  "snowBonus": 0,
+  "amount": 2,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Hop field",
+    7
+   ],
+   [
+    "Plateau",
+    6
+   ],
+   [
+    "Water Plateau",
+    5
+   ],
+   [
+    "Park",
+    5
+   ],
+   [
+    "Fountain",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Tree Oak Mighty 01 a",
+    3
+   ],
+   [
+    "Field",
+    3
+   ],
+   [
+    "Fisher",
+    2
+   ],
+   [
+    "Brewery",
+    2
+   ],
+   [
+    "Flower Single 01 A",
+    2
+   ],
+   [
+    "Tree Cypress 02 a",
+    1
+   ],
+   [
+    "Tree Oak 01 c",
+    1
+   ],
+   [
+    "Tree Oak 01 b",
+    1
+   ],
+   [
+    "Tree Oak 01 a",
+    1
+   ],
+   [
+    "Mill",
+    -3
+   ],
+   [
+    "Brickyard",
+    -5
+   ],
+   [
+    "Seaweed Field",
+    -5
+   ],
+   [
+    "Lumberjack",
+    -5
+   ],
+   [
+    "House",
+    -5
+   ],
+   [
+    "Mansion",
+    -7
+   ],
+   [
+    "Mason",
+    -10
+   ],
+   [
+    "Warehouse",
+    -10
+   ],
+   [
+    "City Center",
+    -10
+   ],
+   [
+    "Sawmill",
+    -10
+   ],
+   [
+    "Gold Mine",
+    -10
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Hop field",
+  "id": 0,
+  "base": 5,
+  "iScore": null,
+  "range": 1.2000000476837158,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 8,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Brewery",
+    4
+   ],
+   [
+    "Resort Oasis",
+    3
+   ],
+   [
+    "Hop field",
+    2
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Park",
+  "id": 0,
+  "base": 2,
+  "iScore": null,
+  "range": 0.8999999761581421,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 40,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Resort Oasis",
+    5
+   ],
+   [
+    "Fountain",
+    4
+   ],
+   [
+    "Temple",
+    4
+   ],
+   [
+    "Hop field",
+    3
+   ],
+   [
+    "Tree Oak Mighty 01 a",
+    3
+   ],
+   [
+    "Tower",
+    3
+   ],
+   [
+    "Field",
+    2
+   ],
+   [
+    "Plateau",
+    2
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "City Center",
+    2
+   ],
+   [
+    "Tree Oak 01 a",
+    1
+   ],
+   [
+    "House",
+    1
+   ],
+   [
+    "Mansion",
+    1
+   ],
+   [
+    "Tree Oak 01 b",
+    1
+   ],
+   [
+    "Tree Cypress 02 a",
+    1
+   ],
+   [
+    "Tree Oak 01 c",
+    1
+   ],
+   [
+    "Wall",
+    -2
+   ],
+   [
+    "Warehouse",
+    -2
+   ],
+   [
+    "Brickyard",
+    -3
+   ],
+   [
+    "Mill",
+    -4
+   ],
+   [
+    "Lumberjack",
+    -4
+   ],
+   [
+    "Sawmill",
+    -5
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Circus",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 1.2000000476837158,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 2,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    10
+   ],
+   [
+    "House",
+    4
+   ],
+   [
+    "Mansion",
+    -5
+   ],
+   [
+    "Circus",
+    -10
+   ],
+   [
+    "Temple",
+    -25
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Mill",
+  "id": 0,
+  "base": 8,
+  "iScore": null,
+  "range": 2.200000047683716,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 2,
+  "amount": 4,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Field",
+   2.0
+  ],
+  "interactions": [
+   [
+    "Statue",
+    5
+   ],
+   [
+    "Warehouse",
+    5
+   ],
+   [
+    "Field",
+    4
+   ],
+   [
+    "City Center",
+    3
+   ],
+   [
+    "Mason",
+    2
+   ],
+   [
+    "Mill",
+    -20
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "House",
+  "id": 0,
+  "base": 1,
+  "iScore": null,
+  "range": 1.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 40,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    6
+   ],
+   [
+    "Shaman",
+    5
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Plateau",
+    3
+   ],
+   [
+    "Wall Plateau",
+    3
+   ],
+   [
+    "Circus",
+    3
+   ],
+   [
+    "Fountain",
+    2
+   ],
+   [
+    "Market",
+    2
+   ],
+   [
+    "Temple",
+    2
+   ],
+   [
+    "Tavern",
+    2
+   ],
+   [
+    "Tower",
+    2
+   ],
+   [
+    "Mason",
+    2
+   ],
+   [
+    "Park",
+    1
+   ],
+   [
+    "House",
+    1
+   ],
+   [
+    "Wall",
+    -2
+   ],
+   [
+    "Jewlery",
+    -2
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Fountain",
+  "id": 0,
+  "base": 0,
+  "iScore": null,
+  "range": 1.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 5,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    7
+   ],
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Park",
+    3
+   ],
+   [
+    "Mansion",
+    3
+   ],
+   [
+    "House",
+    2
+   ],
+   [
+    "Fountain",
+    -15
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Brickyard",
+  "id": 0,
+  "base": 6,
+  "iScore": null,
+  "range": 2.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 4,
+  "amount": 5,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Sandpit",
+   1.0
+  ],
+  "interactions": [
+   [
+    "Mason",
+    5
+   ],
+   [
+    "Warehouse",
+    4
+   ],
+   [
+    "Sandpit",
+    4
+   ],
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Brickyard",
+    -8
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Wall",
+  "id": 0,
+  "base": 2,
+  "iScore": null,
+  "range": 0.30000001192092896,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": 0.10000000149011612,
+    "z": 0.30000001192092896
+   },
+   {
+    "x": 0.0,
+    "y": 0.10000000149011612,
+    "z": -0.30000001192092896
+   }
+  ],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 25,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Water",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Temple",
+    10
+   ],
+   [
+    "Market",
+    7
+   ],
+   [
+    "Jewlery",
+    7
+   ],
+   [
+    "City Center",
+    6
+   ],
+   [
+    "Warehouse",
+    6
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Plateau",
+    4
+   ],
+   [
+    "Park",
+    3
+   ],
+   [
+    "Mason",
+    3
+   ],
+   [
+    "House",
+    3
+   ],
+   [
+    "Mansion",
+    3
+   ],
+   [
+    "Hut",
+    1
+   ],
+   [
+    "Wall",
+    -12
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Mason",
+  "id": 0,
+  "base": 9,
+  "iScore": null,
+  "range": 1.75,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 7,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 1,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Stone"
+  ],
+  "groundedBreakers": [
+   "Water",
+   "Terrain Grass",
+   "Terrain Sand"
+  ],
+  "forbiddenOverlap": [
+   "Structure"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Brickyard",
+    4
+   ],
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Warehouse",
+    3
+   ],
+   [
+    "Tower",
+    2
+   ],
+   [
+    "Market",
+    2
+   ],
+   [
+    "City Center",
+    2
+   ],
+   [
+    "Plateau",
+    2
+   ],
+   [
+    "Temple",
+    2
+   ],
+   [
+    "Wall",
+    2
+   ],
+   [
+    "Mason",
+    -4
+   ],
+   [
+    "Shaman",
+    -5
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Hut",
+  "id": 0,
+  "base": 4,
+  "iScore": null,
+  "range": 3.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 20,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "City Center",
+    6
+   ],
+   [
+    "Statue",
+    2
+   ],
+   [
+    "Shaman",
+    2
+   ],
+   [
+    "Fisher",
+    1
+   ],
+   [
+    "Seaweed Farmer",
+    1
+   ],
+   [
+    "Sawmill",
+    -1
+   ],
+   [
+    "Lumberjack",
+    -1
+   ],
+   [
+    "Warehouse",
+    -1
+   ],
+   [
+    "Brickyard",
+    -1
+   ],
+   [
+    "Mill",
+    -1
+   ],
+   [
+    "Mason",
+    -1
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Seaweed Field",
+  "id": 0,
+  "base": -1,
+  "iScore": null,
+  "range": 0.800000011920929,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": 0.20000000298023224,
+    "z": 0.0
+   }
+  ],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 18,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Water"
+  ],
+  "groundedBreakers": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   "Seaweed Farmer",
+   0.15000000596046448
+  ],
+  "interactions": [
+   [
+    "Seaweed Farmer",
+    9
+   ],
+   [
+    "Plateau",
+    4
+   ],
+   [
+    "Statue",
+    3
+   ],
+   [
+    "Seaweed Field",
+    1
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Balloon",
+  "id": 0,
+  "base": -15,
+  "iScore": null,
+  "range": 2.5,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [
+   {
+    "x": 0.0,
+    "y": -0.5,
+    "z": 0.0
+   }
+  ],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 1,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Resort Oasis",
+    15
+   ],
+   [
+    "Market",
+    15
+   ],
+   [
+    "Tower",
+    15
+   ],
+   [
+    "Circus",
+    15
+   ],
+   [
+    "Statue",
+    10
+   ],
+   [
+    "Temple",
+    -25
+   ],
+   [
+    "Balloon",
+    -45
+   ]
+  ],
+  "variations": 0
+ },
+ {
+  "name": "Monument",
+  "id": 0,
+  "base": -15,
+  "iScore": null,
+  "range": 2.0,
+  "snowRangeMul": 1.0,
+  "rangeOffsets": [],
+  "size": 0,
+  "snowBonus": 0,
+  "amount": 1,
+  "amountWater": 0,
+  "perUnlock": 0.0,
+  "perUnlockWater": 0.0,
+  "perUnlockVert": 0.0,
+  "reAddDeck": 1,
+  "onWall": 0,
+  "steepOK": 0,
+  "rotSteps": 0,
+  "surface": [
+   "Terrain Grass",
+   "Terrain Sand",
+   "Terrain Stone",
+   "Wood Platform"
+  ],
+  "groundedBreakers": [
+   "Water"
+  ],
+  "forbiddenOverlap": [
+   "Structure",
+   "Terrain Grass",
+   "Terrain Stone"
+  ],
+  "deleteOnPlace": [
+   "Tree",
+   "Vegetation"
+  ],
+  "requires": [
+   null,
+   0.0
+  ],
+  "interactions": [
+   [
+    "Temple",
+    20
+   ],
+   [
+    "City Center",
+    15
+   ],
+   [
+    "Park",
+    8
+   ],
+   [
+    "Statue",
+    4
+   ],
+   [
+    "Field",
+    -5
+   ],
+   [
+    "Hop field",
+    -7
+   ],
+   [
+    "Monument",
+    -100
+   ]
+  ],
+  "variations": 0
+ }
+]
